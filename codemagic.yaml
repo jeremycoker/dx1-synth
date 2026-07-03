@@ -24,10 +24,17 @@ workflows:
     scripts:
       - name: Run DX1Core tests (macOS)
         script: cd native-ios/DX1Core && swift test
+      - name: Clean SwiftPM build artifacts
+        script: rm -rf native-ios/DX1Core/.build native-ios/DX1Core/.swiftpm
       - name: Install XcodeGen
         script: brew install xcodegen
       - name: Generate Xcode project
         script: cd native-ios && xcodegen generate
+      - name: Resolve package dependencies
+        script: |
+          xcodebuild -resolvePackageDependencies \
+            -project native-ios/DX1Synth.xcodeproj \
+            -scheme DX1Synth
       - name: Compile app unsigned
         script: |
           xcodebuild build \
@@ -60,6 +67,11 @@ workflows:
         script: brew install xcodegen
       - name: Generate Xcode project
         script: cd native-ios && xcodegen generate
+      - name: Resolve package dependencies
+        script: |
+          xcodebuild -resolvePackageDependencies \
+            -project native-ios/DX1Synth.xcodeproj \
+            -scheme DX1Synth
       - name: Set up code signing
         script: xcode-project use-profiles
       - name: Build signed IPA
