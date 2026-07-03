@@ -1,0 +1,3539 @@
+{
+  "FACTORY_PRESETS": [
+    {
+      "name": "E.PIANO 1",
+      "algorithm": 5,
+      "feedback": 6,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 34,
+      "lfoDelay": 33,
+      "lfoPmd": 0,
+      "lfoAmd": 5,
+      "lfoSync": true,
+      "lfoWave": 4,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            96,
+            25,
+            25,
+            67
+          ],
+          "egLevels": [
+            99,
+            75,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            95,
+            50,
+            35,
+            78
+          ],
+          "egLevels": [
+            99,
+            75,
+            0,
+            0
+          ],
+          "breakpoint": 48,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 50,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 1,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 7,
+          "outputLevel": 58,
+          "freqMode": 0,
+          "freqCoarse": 14,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            95,
+            20,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            95,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            95,
+            29,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            95,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 6,
+          "outputLevel": 89,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            95,
+            20,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            95,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            95,
+            29,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            95,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 6,
+          "outputLevel": 79,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 0
+        }
+      ]
+    },
+    {
+      "name": "FULLTINES",
+      "algorithm": 5,
+      "feedback": 5,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 30,
+      "lfoDelay": 20,
+      "lfoPmd": 0,
+      "lfoAmd": 10,
+      "lfoSync": true,
+      "lfoWave": 4,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            96,
+            22,
+            22,
+            60
+          ],
+          "egLevels": [
+            99,
+            85,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            98,
+            60,
+            30,
+            70
+          ],
+          "egLevels": [
+            99,
+            60,
+            0,
+            0
+          ],
+          "breakpoint": 48,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 40,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 1,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 7,
+          "outputLevel": 62,
+          "freqMode": 0,
+          "freqCoarse": 7,
+          "freqFine": 0,
+          "detune": 9
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            96,
+            20,
+            20,
+            55
+          ],
+          "egLevels": [
+            99,
+            90,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 1,
+          "detune": 5
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            97,
+            45,
+            25,
+            65
+          ],
+          "egLevels": [
+            99,
+            70,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 6,
+          "outputLevel": 70,
+          "freqMode": 0,
+          "freqCoarse": 4,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            96,
+            20,
+            20,
+            55
+          ],
+          "egLevels": [
+            99,
+            90,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 98,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 9
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            97,
+            40,
+            22,
+            60
+          ],
+          "egLevels": [
+            99,
+            80,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 6,
+          "outputLevel": 75,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 3
+        }
+      ]
+    },
+    {
+      "name": "WURLI EP",
+      "algorithm": 5,
+      "feedback": 5,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 42,
+      "lfoDelay": 0,
+      "lfoPmd": 0,
+      "lfoAmd": 20,
+      "lfoSync": true,
+      "lfoWave": 4,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            96,
+            24,
+            22,
+            62
+          ],
+          "egLevels": [
+            99,
+            80,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 1,
+          "velSens": 3,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            97,
+            45,
+            28,
+            70
+          ],
+          "egLevels": [
+            99,
+            55,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 6,
+          "outputLevel": 76,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            96,
+            24,
+            22,
+            62
+          ],
+          "egLevels": [
+            99,
+            78,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 1,
+          "velSens": 3,
+          "outputLevel": 96,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 1,
+          "detune": 8
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            98,
+            70,
+            38,
+            80
+          ],
+          "egLevels": [
+            99,
+            25,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 7,
+          "outputLevel": 58,
+          "freqMode": 0,
+          "freqCoarse": 5,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        }
+      ]
+    },
+    {
+      "name": "TUB BELLS",
+      "algorithm": 5,
+      "feedback": 7,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 25,
+      "lfoDelay": 0,
+      "lfoPmd": 0,
+      "lfoAmd": 6,
+      "lfoSync": true,
+      "lfoWave": 4,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            95,
+            13,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            92,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 95,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 3
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            98,
+            12,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            88,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 5,
+          "outputLevel": 78,
+          "freqMode": 0,
+          "freqCoarse": 3,
+          "freqFine": 50,
+          "detune": 3
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            95,
+            13,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            92,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 95,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 11
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            98,
+            12,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            88,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 5,
+          "outputLevel": 78,
+          "freqMode": 0,
+          "freqCoarse": 3,
+          "freqFine": 50,
+          "detune": 11
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            98,
+            12,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 2,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            98,
+            25,
+            25,
+            60
+          ],
+          "egLevels": [
+            99,
+            70,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 6,
+          "outputLevel": 62,
+          "freqMode": 0,
+          "freqCoarse": 2,
+          "freqFine": 41,
+          "detune": 7
+        }
+      ]
+    },
+    {
+      "name": "VIBES",
+      "algorithm": 5,
+      "feedback": 4,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 45,
+      "lfoDelay": 0,
+      "lfoPmd": 0,
+      "lfoAmd": 35,
+      "lfoSync": true,
+      "lfoWave": 4,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            22,
+            20,
+            55
+          ],
+          "egLevels": [
+            99,
+            90,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 2,
+          "velSens": 3,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            55,
+            32,
+            75
+          ],
+          "egLevels": [
+            99,
+            35,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 6,
+          "outputLevel": 52,
+          "freqMode": 0,
+          "freqCoarse": 4,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            24,
+            20,
+            55
+          ],
+          "egLevels": [
+            99,
+            88,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 2,
+          "velSens": 3,
+          "outputLevel": 94,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 9
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            80,
+            45,
+            88
+          ],
+          "egLevels": [
+            99,
+            8,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 5,
+          "amSens": 0,
+          "velSens": 7,
+          "outputLevel": 44,
+          "freqMode": 0,
+          "freqCoarse": 10,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        }
+      ]
+    },
+    {
+      "name": "MARIMBA",
+      "algorithm": 5,
+      "feedback": 3,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 35,
+      "lfoDelay": 0,
+      "lfoPmd": 0,
+      "lfoAmd": 0,
+      "lfoSync": true,
+      "lfoWave": 0,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            45,
+            30,
+            70
+          ],
+          "egLevels": [
+            99,
+            60,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            70,
+            40,
+            80
+          ],
+          "egLevels": [
+            99,
+            30,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 5,
+          "amSens": 0,
+          "velSens": 6,
+          "outputLevel": 55,
+          "freqMode": 0,
+          "freqCoarse": 4,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            50,
+            32,
+            70
+          ],
+          "egLevels": [
+            99,
+            50,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 90,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 9
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            85,
+            50,
+            90
+          ],
+          "egLevels": [
+            99,
+            10,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 6,
+          "amSens": 0,
+          "velSens": 7,
+          "outputLevel": 48,
+          "freqMode": 0,
+          "freqCoarse": 10,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 2,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 13,
+          "freqFine": 0,
+          "detune": 7
+        }
+      ]
+    },
+    {
+      "name": "BASS 1",
+      "algorithm": 16,
+      "feedback": 7,
+      "oscKeySync": true,
+      "transpose": 12,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 35,
+      "lfoDelay": 0,
+      "lfoPmd": 0,
+      "lfoAmd": 0,
+      "lfoSync": true,
+      "lfoWave": 0,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            40,
+            25,
+            75
+          ],
+          "egLevels": [
+            99,
+            90,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 1,
+          "amSens": 0,
+          "velSens": 1,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 0,
+          "freqFine": 50,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            60,
+            30,
+            80
+          ],
+          "egLevels": [
+            99,
+            60,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 0,
+          "velSens": 5,
+          "outputLevel": 80,
+          "freqMode": 0,
+          "freqCoarse": 0,
+          "freqFine": 50,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            55,
+            28,
+            80
+          ],
+          "egLevels": [
+            99,
+            55,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 0,
+          "velSens": 4,
+          "outputLevel": 76,
+          "freqMode": 0,
+          "freqCoarse": 0,
+          "freqFine": 50,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            70,
+            35,
+            85
+          ],
+          "egLevels": [
+            99,
+            40,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 5,
+          "outputLevel": 68,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            50,
+            28,
+            80
+          ],
+          "egLevels": [
+            99,
+            65,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 82,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            75,
+            40,
+            85
+          ],
+          "egLevels": [
+            99,
+            30,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 6,
+          "outputLevel": 72,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        }
+      ]
+    },
+    {
+      "name": "SOLIDBASS",
+      "algorithm": 1,
+      "feedback": 6,
+      "oscKeySync": true,
+      "transpose": 12,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 35,
+      "lfoDelay": 0,
+      "lfoPmd": 0,
+      "lfoAmd": 0,
+      "lfoSync": true,
+      "lfoWave": 0,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            35,
+            22,
+            80
+          ],
+          "egLevels": [
+            99,
+            92,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 1,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 0,
+          "freqFine": 50,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            65,
+            30,
+            85
+          ],
+          "egLevels": [
+            99,
+            45,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 6,
+          "outputLevel": 85,
+          "freqMode": 0,
+          "freqCoarse": 0,
+          "freqFine": 50,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            35,
+            22,
+            80
+          ],
+          "egLevels": [
+            99,
+            92,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 1,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 0,
+          "freqFine": 50,
+          "detune": 8
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            70,
+            32,
+            85
+          ],
+          "egLevels": [
+            99,
+            40,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 5,
+          "outputLevel": 78,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            80,
+            40,
+            90
+          ],
+          "egLevels": [
+            99,
+            25,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 5,
+          "outputLevel": 70,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            85,
+            45,
+            90
+          ],
+          "egLevels": [
+            99,
+            15,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 7,
+          "outputLevel": 64,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        }
+      ]
+    },
+    {
+      "name": "CLAV 1",
+      "algorithm": 3,
+      "feedback": 6,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 35,
+      "lfoDelay": 0,
+      "lfoPmd": 0,
+      "lfoAmd": 0,
+      "lfoSync": true,
+      "lfoWave": 0,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            40,
+            24,
+            75
+          ],
+          "egLevels": [
+            99,
+            75,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            60,
+            30,
+            80
+          ],
+          "egLevels": [
+            99,
+            50,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 6,
+          "outputLevel": 74,
+          "freqMode": 0,
+          "freqCoarse": 3,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            80,
+            40,
+            85
+          ],
+          "egLevels": [
+            99,
+            20,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 7,
+          "outputLevel": 52,
+          "freqMode": 0,
+          "freqCoarse": 7,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            42,
+            24,
+            75
+          ],
+          "egLevels": [
+            99,
+            72,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 95,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 9
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            65,
+            32,
+            80
+          ],
+          "egLevels": [
+            99,
+            40,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 6,
+          "outputLevel": 66,
+          "freqMode": 0,
+          "freqCoarse": 4,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            85,
+            45,
+            88
+          ],
+          "egLevels": [
+            99,
+            12,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 5,
+          "amSens": 0,
+          "velSens": 7,
+          "outputLevel": 48,
+          "freqMode": 0,
+          "freqCoarse": 9,
+          "freqFine": 0,
+          "detune": 7
+        }
+      ]
+    },
+    {
+      "name": "HARPSICH",
+      "algorithm": 5,
+      "feedback": 7,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 35,
+      "lfoDelay": 0,
+      "lfoPmd": 0,
+      "lfoAmd": 0,
+      "lfoSync": true,
+      "lfoWave": 0,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            30,
+            25,
+            80
+          ],
+          "egLevels": [
+            99,
+            80,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 95,
+          "freqMode": 0,
+          "freqCoarse": 2,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            45,
+            30,
+            85
+          ],
+          "egLevels": [
+            99,
+            55,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 4,
+          "outputLevel": 68,
+          "freqMode": 0,
+          "freqCoarse": 6,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            32,
+            25,
+            80
+          ],
+          "egLevels": [
+            99,
+            78,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 3,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 92,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            50,
+            32,
+            85
+          ],
+          "egLevels": [
+            99,
+            45,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 4,
+          "outputLevel": 60,
+          "freqMode": 0,
+          "freqCoarse": 8,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            55,
+            35,
+            85
+          ],
+          "egLevels": [
+            99,
+            40,
+            0,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 4,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 55,
+          "freqMode": 0,
+          "freqCoarse": 4,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        }
+      ]
+    },
+    {
+      "name": "BRASS 1",
+      "algorithm": 22,
+      "feedback": 7,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        84,
+        95,
+        95,
+        60
+      ],
+      "pitchEgLevels": [
+        48,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 37,
+      "lfoDelay": 40,
+      "lfoPmd": 8,
+      "lfoAmd": 0,
+      "lfoSync": true,
+      "lfoWave": 4,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            72,
+            76,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            88,
+            96,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            62,
+            51,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            88,
+            96,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 98,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 10
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            72,
+            76,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            88,
+            96,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 4
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            62,
+            51,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            88,
+            96,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 98,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 10
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            77,
+            76,
+            20,
+            50
+          ],
+          "egLevels": [
+            99,
+            88,
+            96,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 98,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 6
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            49,
+            99,
+            28,
+            68
+          ],
+          "egLevels": [
+            98,
+            98,
+            91,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 2,
+          "amSens": 0,
+          "velSens": 4,
+          "outputLevel": 78,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        }
+      ]
+    },
+    {
+      "name": "STRINGS 1",
+      "algorithm": 2,
+      "feedback": 7,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 32,
+      "lfoDelay": 45,
+      "lfoPmd": 15,
+      "lfoAmd": 0,
+      "lfoSync": true,
+      "lfoWave": 4,
+      "lfoPitchModSens": 2,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            45,
+            30,
+            20,
+            40
+          ],
+          "egLevels": [
+            99,
+            95,
+            95,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 1,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            40,
+            30,
+            20,
+            40
+          ],
+          "egLevels": [
+            99,
+            90,
+            90,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 78,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 9
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            45,
+            30,
+            20,
+            40
+          ],
+          "egLevels": [
+            99,
+            95,
+            95,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 1,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 1,
+          "detune": 5
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            45,
+            35,
+            20,
+            40
+          ],
+          "egLevels": [
+            99,
+            90,
+            90,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 62,
+          "freqMode": 0,
+          "freqCoarse": 3,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            45,
+            35,
+            20,
+            40
+          ],
+          "egLevels": [
+            99,
+            90,
+            90,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 70,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 10
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            45,
+            35,
+            20,
+            40
+          ],
+          "egLevels": [
+            99,
+            90,
+            90,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 55,
+          "freqMode": 0,
+          "freqCoarse": 2,
+          "freqFine": 0,
+          "detune": 4
+        }
+      ]
+    },
+    {
+      "name": "GLASS PAD",
+      "algorithm": 19,
+      "feedback": 6,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 28,
+      "lfoDelay": 30,
+      "lfoPmd": 12,
+      "lfoAmd": 0,
+      "lfoSync": true,
+      "lfoWave": 4,
+      "lfoPitchModSens": 2,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            40,
+            25,
+            20,
+            35
+          ],
+          "egLevels": [
+            99,
+            95,
+            95,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 1,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            35,
+            25,
+            20,
+            40
+          ],
+          "egLevels": [
+            99,
+            85,
+            85,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 60,
+          "freqMode": 0,
+          "freqCoarse": 5,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            40,
+            25,
+            20,
+            40
+          ],
+          "egLevels": [
+            99,
+            85,
+            85,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 55,
+          "freqMode": 0,
+          "freqCoarse": 2,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            38,
+            25,
+            20,
+            35
+          ],
+          "egLevels": [
+            99,
+            95,
+            95,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 1,
+          "outputLevel": 92,
+          "freqMode": 0,
+          "freqCoarse": 2,
+          "freqFine": 0,
+          "detune": 10
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            42,
+            25,
+            20,
+            35
+          ],
+          "egLevels": [
+            99,
+            95,
+            95,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 1,
+          "outputLevel": 90,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 4
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            45,
+            30,
+            20,
+            45
+          ],
+          "egLevels": [
+            99,
+            80,
+            80,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 4,
+          "outputLevel": 52,
+          "freqMode": 0,
+          "freqCoarse": 7,
+          "freqFine": 0,
+          "detune": 7
+        }
+      ]
+    },
+    {
+      "name": "PIPES 1",
+      "algorithm": 32,
+      "feedback": 2,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 30,
+      "lfoDelay": 0,
+      "lfoPmd": 0,
+      "lfoAmd": 4,
+      "lfoSync": true,
+      "lfoWave": 4,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            75,
+            20,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 96,
+          "freqMode": 0,
+          "freqCoarse": 0,
+          "freqFine": 50,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            75,
+            20,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 92,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            72,
+            20,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 84,
+          "freqMode": 0,
+          "freqCoarse": 2,
+          "freqFine": 0,
+          "detune": 8
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            70,
+            20,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 74,
+          "freqMode": 0,
+          "freqCoarse": 4,
+          "freqFine": 0,
+          "detune": 6
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            68,
+            20,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 60,
+          "freqMode": 0,
+          "freqCoarse": 8,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            70,
+            20,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 55,
+          "freqMode": 0,
+          "freqCoarse": 3,
+          "freqFine": 0,
+          "detune": 9
+        }
+      ]
+    },
+    {
+      "name": "FLUTE 1",
+      "algorithm": 8,
+      "feedback": 4,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        90,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        52,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 40,
+      "lfoDelay": 55,
+      "lfoPmd": 10,
+      "lfoAmd": 8,
+      "lfoSync": true,
+      "lfoWave": 4,
+      "lfoPitchModSens": 2,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            70,
+            30,
+            20,
+            55
+          ],
+          "egLevels": [
+            99,
+            97,
+            97,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 1,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            85,
+            40,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            80,
+            80,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 50,
+          "freqMode": 0,
+          "freqCoarse": 2,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            65,
+            30,
+            20,
+            55
+          ],
+          "egLevels": [
+            99,
+            95,
+            95,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 1,
+          "outputLevel": 88,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 8
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            90,
+            40,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            85,
+            85,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 58,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            80,
+            40,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            80,
+            80,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 2,
+          "velSens": 0,
+          "outputLevel": 40,
+          "freqMode": 0,
+          "freqCoarse": 4,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            40,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            80,
+            80,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 3,
+          "velSens": 0,
+          "outputLevel": 46,
+          "freqMode": 0,
+          "freqCoarse": 0,
+          "freqFine": 50,
+          "detune": 7
+        }
+      ]
+    },
+    {
+      "name": "SYN-LEAD",
+      "algorithm": 18,
+      "feedback": 7,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 36,
+      "lfoDelay": 50,
+      "lfoPmd": 20,
+      "lfoAmd": 0,
+      "lfoSync": true,
+      "lfoWave": 0,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            90,
+            30,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            95,
+            95,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 2,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            85,
+            30,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            90,
+            90,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 80,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 10
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            85,
+            30,
+            20,
+            60
+          ],
+          "egLevels": [
+            99,
+            88,
+            88,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 76,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 4
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            80,
+            35,
+            22,
+            60
+          ],
+          "egLevels": [
+            99,
+            85,
+            85,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 3,
+          "outputLevel": 65,
+          "freqMode": 0,
+          "freqCoarse": 2,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            80,
+            40,
+            25,
+            65
+          ],
+          "egLevels": [
+            99,
+            75,
+            75,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 4,
+          "outputLevel": 55,
+          "freqMode": 0,
+          "freqCoarse": 3,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            80,
+            45,
+            28,
+            65
+          ],
+          "egLevels": [
+            99,
+            70,
+            70,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 4,
+          "outputLevel": 50,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        }
+      ]
+    },
+    {
+      "name": "INIT VOICE",
+      "algorithm": 1,
+      "feedback": 0,
+      "oscKeySync": true,
+      "transpose": 24,
+      "pitchEgRates": [
+        99,
+        99,
+        99,
+        99
+      ],
+      "pitchEgLevels": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "lfoSpeed": 35,
+      "lfoDelay": 0,
+      "lfoPmd": 0,
+      "lfoAmd": 0,
+      "lfoSync": true,
+      "lfoWave": 0,
+      "lfoPitchModSens": 3,
+      "ops": [
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 99,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        },
+        {
+          "enabled": true,
+          "egRates": [
+            99,
+            99,
+            99,
+            99
+          ],
+          "egLevels": [
+            99,
+            99,
+            99,
+            0
+          ],
+          "breakpoint": 39,
+          "scaleLeftDepth": 0,
+          "scaleRightDepth": 0,
+          "scaleLeftCurve": 0,
+          "scaleRightCurve": 0,
+          "rateScaling": 0,
+          "amSens": 0,
+          "velSens": 0,
+          "outputLevel": 0,
+          "freqMode": 0,
+          "freqCoarse": 1,
+          "freqFine": 0,
+          "detune": 7
+        }
+      ]
+    }
+  ],
+  "INIT_VOICE": {
+    "name": "INIT VOICE",
+    "algorithm": 1,
+    "feedback": 0,
+    "oscKeySync": true,
+    "transpose": 24,
+    "pitchEgRates": [
+      99,
+      99,
+      99,
+      99
+    ],
+    "pitchEgLevels": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "lfoSpeed": 35,
+    "lfoDelay": 0,
+    "lfoPmd": 0,
+    "lfoAmd": 0,
+    "lfoSync": true,
+    "lfoWave": 0,
+    "lfoPitchModSens": 3,
+    "ops": [
+      {
+        "enabled": true,
+        "egRates": [
+          99,
+          99,
+          99,
+          99
+        ],
+        "egLevels": [
+          99,
+          99,
+          99,
+          0
+        ],
+        "breakpoint": 39,
+        "scaleLeftDepth": 0,
+        "scaleRightDepth": 0,
+        "scaleLeftCurve": 0,
+        "scaleRightCurve": 0,
+        "rateScaling": 0,
+        "amSens": 0,
+        "velSens": 0,
+        "outputLevel": 99,
+        "freqMode": 0,
+        "freqCoarse": 1,
+        "freqFine": 0,
+        "detune": 7
+      },
+      {
+        "enabled": true,
+        "egRates": [
+          99,
+          99,
+          99,
+          99
+        ],
+        "egLevels": [
+          99,
+          99,
+          99,
+          0
+        ],
+        "breakpoint": 39,
+        "scaleLeftDepth": 0,
+        "scaleRightDepth": 0,
+        "scaleLeftCurve": 0,
+        "scaleRightCurve": 0,
+        "rateScaling": 0,
+        "amSens": 0,
+        "velSens": 0,
+        "outputLevel": 0,
+        "freqMode": 0,
+        "freqCoarse": 1,
+        "freqFine": 0,
+        "detune": 7
+      },
+      {
+        "enabled": true,
+        "egRates": [
+          99,
+          99,
+          99,
+          99
+        ],
+        "egLevels": [
+          99,
+          99,
+          99,
+          0
+        ],
+        "breakpoint": 39,
+        "scaleLeftDepth": 0,
+        "scaleRightDepth": 0,
+        "scaleLeftCurve": 0,
+        "scaleRightCurve": 0,
+        "rateScaling": 0,
+        "amSens": 0,
+        "velSens": 0,
+        "outputLevel": 0,
+        "freqMode": 0,
+        "freqCoarse": 1,
+        "freqFine": 0,
+        "detune": 7
+      },
+      {
+        "enabled": true,
+        "egRates": [
+          99,
+          99,
+          99,
+          99
+        ],
+        "egLevels": [
+          99,
+          99,
+          99,
+          0
+        ],
+        "breakpoint": 39,
+        "scaleLeftDepth": 0,
+        "scaleRightDepth": 0,
+        "scaleLeftCurve": 0,
+        "scaleRightCurve": 0,
+        "rateScaling": 0,
+        "amSens": 0,
+        "velSens": 0,
+        "outputLevel": 0,
+        "freqMode": 0,
+        "freqCoarse": 1,
+        "freqFine": 0,
+        "detune": 7
+      },
+      {
+        "enabled": true,
+        "egRates": [
+          99,
+          99,
+          99,
+          99
+        ],
+        "egLevels": [
+          99,
+          99,
+          99,
+          0
+        ],
+        "breakpoint": 39,
+        "scaleLeftDepth": 0,
+        "scaleRightDepth": 0,
+        "scaleLeftCurve": 0,
+        "scaleRightCurve": 0,
+        "rateScaling": 0,
+        "amSens": 0,
+        "velSens": 0,
+        "outputLevel": 0,
+        "freqMode": 0,
+        "freqCoarse": 1,
+        "freqFine": 0,
+        "detune": 7
+      },
+      {
+        "enabled": true,
+        "egRates": [
+          99,
+          99,
+          99,
+          99
+        ],
+        "egLevels": [
+          99,
+          99,
+          99,
+          0
+        ],
+        "breakpoint": 39,
+        "scaleLeftDepth": 0,
+        "scaleRightDepth": 0,
+        "scaleLeftCurve": 0,
+        "scaleRightCurve": 0,
+        "rateScaling": 0,
+        "amSens": 0,
+        "velSens": 0,
+        "outputLevel": 0,
+        "freqMode": 0,
+        "freqCoarse": 1,
+        "freqFine": 0,
+        "detune": 7
+      }
+    ]
+  },
+  "DEFAULT_FUNCTION": {
+    "polyphony": 16,
+    "mono": false,
+    "pitchBendRange": 2,
+    "portamento": 0,
+    "masterVolume": 0.8
+  }
+}

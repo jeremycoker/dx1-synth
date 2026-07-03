@@ -1,0 +1,3973 @@
+[
+  {
+    "name": "alg_01",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1001,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 1,
+        "feedback": 5,
+        "name": "ALG 1"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_01.f32",
+    "peak": 0.2230835258960724,
+    "rms": 0.13890241927108468
+  },
+  {
+    "name": "alg_02",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1002,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 2,
+        "feedback": 5,
+        "name": "ALG 2"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_02.f32",
+    "peak": 0.2210959941148758,
+    "rms": 0.1606276967623156
+  },
+  {
+    "name": "alg_03",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1003,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 3,
+        "feedback": 5,
+        "name": "ALG 3"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_03.f32",
+    "peak": 0.2133488655090332,
+    "rms": 0.1301174609470616
+  },
+  {
+    "name": "alg_04",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1004,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 4,
+        "feedback": 5,
+        "name": "ALG 4"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_04.f32",
+    "peak": 0.21334940195083618,
+    "rms": 0.13012673835217625
+  },
+  {
+    "name": "alg_05",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1005,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 5,
+        "feedback": 5,
+        "name": "ALG 5"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_05.f32",
+    "peak": 0.2014441043138504,
+    "rms": 0.1149256019472539
+  },
+  {
+    "name": "alg_06",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1006,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 6,
+        "feedback": 5,
+        "name": "ALG 6"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_06.f32",
+    "peak": 0.20023559033870697,
+    "rms": 0.11415389362843716
+  },
+  {
+    "name": "alg_07",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1007,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 7,
+        "feedback": 5,
+        "name": "ALG 7"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_07.f32",
+    "peak": 0.22309991717338562,
+    "rms": 0.13469689913203767
+  },
+  {
+    "name": "alg_08",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1008,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 8,
+        "feedback": 5,
+        "name": "ALG 8"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_08.f32",
+    "peak": 0.2230880856513977,
+    "rms": 0.1345253603193654
+  },
+  {
+    "name": "alg_09",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1009,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 9,
+        "feedback": 5,
+        "name": "ALG 9"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_09.f32",
+    "peak": 0.2230207771062851,
+    "rms": 0.1559979479117702
+  },
+  {
+    "name": "alg_10",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1010,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 10,
+        "feedback": 5,
+        "name": "ALG 10"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_10.f32",
+    "peak": 0.21332673728466034,
+    "rms": 0.13324257405405288
+  },
+  {
+    "name": "alg_11",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1011,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 11,
+        "feedback": 5,
+        "name": "ALG 11"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_11.f32",
+    "peak": 0.21334895491600037,
+    "rms": 0.1300240101040953
+  },
+  {
+    "name": "alg_12",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1012,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 12,
+        "feedback": 5,
+        "name": "ALG 12"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_12.f32",
+    "peak": 0.2230946123600006,
+    "rms": 0.15592135736658796
+  },
+  {
+    "name": "alg_13",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1013,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 13,
+        "feedback": 5,
+        "name": "ALG 13"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_13.f32",
+    "peak": 0.2230527698993683,
+    "rms": 0.13468789157446523
+  },
+  {
+    "name": "alg_14",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1014,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 14,
+        "feedback": 5,
+        "name": "ALG 14"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_14.f32",
+    "peak": 0.22308769822120667,
+    "rms": 0.13882853249225335
+  },
+  {
+    "name": "alg_15",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1015,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 15,
+        "feedback": 5,
+        "name": "ALG 15"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_15.f32",
+    "peak": 0.22119438648223877,
+    "rms": 0.16052783278413763
+  },
+  {
+    "name": "alg_16",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1016,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 16,
+        "feedback": 5,
+        "name": "ALG 16"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_16.f32",
+    "peak": 0.2916666567325592,
+    "rms": 0.13312094300991933
+  },
+  {
+    "name": "alg_17",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1017,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 17,
+        "feedback": 5,
+        "name": "ALG 17"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_17.f32",
+    "peak": 0.2916666567325592,
+    "rms": 0.15829872048235627
+  },
+  {
+    "name": "alg_18",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1018,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 18,
+        "feedback": 5,
+        "name": "ALG 18"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_18.f32",
+    "peak": 0.2916666567325592,
+    "rms": 0.17241145527757745
+  },
+  {
+    "name": "alg_19",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1019,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 19,
+        "feedback": 5,
+        "name": "ALG 19"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_19.f32",
+    "peak": 0.18957288563251495,
+    "rms": 0.10699602449693911
+  },
+  {
+    "name": "alg_20",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1020,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 20,
+        "feedback": 5,
+        "name": "ALG 20"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_20.f32",
+    "peak": 0.19222761690616608,
+    "rms": 0.11283235068149018
+  },
+  {
+    "name": "alg_21",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1021,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 21,
+        "feedback": 5,
+        "name": "ALG 21"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_21.f32",
+    "peak": 0.18195520341396332,
+    "rms": 0.10213936976179609
+  },
+  {
+    "name": "alg_22",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1022,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 22,
+        "feedback": 5,
+        "name": "ALG 22"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_22.f32",
+    "peak": 0.1780620664358139,
+    "rms": 0.10211344511591629
+  },
+  {
+    "name": "alg_23",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1023,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 23,
+        "feedback": 5,
+        "name": "ALG 23"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_23.f32",
+    "peak": 0.17930549383163452,
+    "rms": 0.09545812373048594
+  },
+  {
+    "name": "alg_24",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1024,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 24,
+        "feedback": 5,
+        "name": "ALG 24"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_24.f32",
+    "peak": 0.1581488996744156,
+    "rms": 0.08208081301870676
+  },
+  {
+    "name": "alg_25",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1025,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 25,
+        "feedback": 5,
+        "name": "ALG 25"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_25.f32",
+    "peak": 0.15398308634757996,
+    "rms": 0.08171273843069035
+  },
+  {
+    "name": "alg_26",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1026,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 26,
+        "feedback": 5,
+        "name": "ALG 26"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_26.f32",
+    "peak": 0.19694915413856506,
+    "rms": 0.10846679807241692
+  },
+  {
+    "name": "alg_27",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1027,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 27,
+        "feedback": 5,
+        "name": "ALG 27"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_27.f32",
+    "peak": 0.19493664801120758,
+    "rms": 0.1086842708562968
+  },
+  {
+    "name": "alg_28",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1028,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 28,
+        "feedback": 5,
+        "name": "ALG 28"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_28.f32",
+    "peak": 0.19000394642353058,
+    "rms": 0.11477198926168666
+  },
+  {
+    "name": "alg_29",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1029,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 29,
+        "feedback": 5,
+        "name": "ALG 29"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_29.f32",
+    "peak": 0.16621556878089905,
+    "rms": 0.08849650781274702
+  },
+  {
+    "name": "alg_30",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1030,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 30,
+        "feedback": 5,
+        "name": "ALG 30"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_30.f32",
+    "peak": 0.14683233201503754,
+    "rms": 0.08594001099535482
+  },
+  {
+    "name": "alg_31",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1031,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 31,
+        "feedback": 5,
+        "name": "ALG 31"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_31.f32",
+    "peak": 0.15511742234230042,
+    "rms": 0.08181874887835285
+  },
+  {
+    "name": "alg_32",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 33024,
+    "seed": 1032,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "algorithm": 32,
+        "feedback": 5,
+        "name": "ALG 32"
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 70,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 1
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 5,
+          "overrides": {
+            "outputLevel": 65,
+            "freqCoarse": 5
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 22016,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "alg_32.f32",
+    "peak": 0.13466882705688477,
+    "rms": 0.07470906734012557
+  },
+  {
+    "name": "preset_e_piano_1",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:E.PIANO 1",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_e_piano_1.f32",
+    "peak": 0.35951951146125793,
+    "rms": 0.04983916169215809
+  },
+  {
+    "name": "preset_fulltines",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:FULLTINES",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_fulltines.f32",
+    "peak": 0.25549033284187317,
+    "rms": 0.036505041348400165
+  },
+  {
+    "name": "preset_wurli_ep",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:WURLI EP",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_wurli_ep.f32",
+    "peak": 0.13802872598171234,
+    "rms": 0.01598404580306843
+  },
+  {
+    "name": "preset_tub_bells",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:TUB BELLS",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_tub_bells.f32",
+    "peak": 0.14687323570251465,
+    "rms": 0.035759140307662
+  },
+  {
+    "name": "preset_vibes",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:VIBES",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_vibes.f32",
+    "peak": 0.11791861057281494,
+    "rms": 0.01700092278272582
+  },
+  {
+    "name": "preset_marimba",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:MARIMBA",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_marimba.f32",
+    "peak": 0.10045119374990463,
+    "rms": 0.0031171501851887315
+  },
+  {
+    "name": "preset_bass_1",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:BASS 1",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_bass_1.f32",
+    "peak": 0.22296980023384094,
+    "rms": 0.021338934618174873
+  },
+  {
+    "name": "preset_solidbass",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:SOLIDBASS",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_solidbass.f32",
+    "peak": 0.2446870356798172,
+    "rms": 0.03251422882694983
+  },
+  {
+    "name": "preset_clav_1",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:CLAV 1",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_clav_1.f32",
+    "peak": 0.16298136115074158,
+    "rms": 0.009392672250715451
+  },
+  {
+    "name": "preset_harpsich",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:HARPSICH",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_harpsich.f32",
+    "peak": 0.11853288859128952,
+    "rms": 0.007448995889823722
+  },
+  {
+    "name": "preset_brass_1",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:BRASS 1",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_brass_1.f32",
+    "peak": 0.2315242439508438,
+    "rms": 0.06922303928489822
+  },
+  {
+    "name": "preset_strings_1",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:STRINGS 1",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_strings_1.f32",
+    "peak": 0.31740057468414307,
+    "rms": 0.08475444103853415
+  },
+  {
+    "name": "preset_glass_pad",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:GLASS PAD",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_glass_pad.f32",
+    "peak": 0.23856033384799957,
+    "rms": 0.05576236627877348
+  },
+  {
+    "name": "preset_pipes_1",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:PIPES 1",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_pipes_1.f32",
+    "peak": 0.1928166300058365,
+    "rms": 0.059134885988488164
+  },
+  {
+    "name": "preset_flute_1",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:FLUTE 1",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_flute_1.f32",
+    "peak": 0.22221894562244415,
+    "rms": 0.08604379721341532
+  },
+  {
+    "name": "preset_syn_lead",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:SYN-LEAD",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_syn_lead.f32",
+    "peak": 0.17959262430667877,
+    "rms": 0.06313756215854625
+  },
+  {
+    "name": "preset_init_voice",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 42,
+    "patch": "preset:INIT VOICE",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "preset_init_voice.f32",
+    "peak": 0.2062394767999649,
+    "rms": 0.1031173959104737
+  },
+  {
+    "name": "chord_velocity",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 88064,
+    "seed": 7,
+    "patch": "preset:E.PIANO 1",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 48,
+          "velocity": 0.5
+        }
+      },
+      {
+        "atSample": 2560,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 5120,
+        "msg": {
+          "type": "noteOn",
+          "note": 64,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 7680,
+        "msg": {
+          "type": "noteOn",
+          "note": 67,
+          "velocity": 0.3
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 48
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      },
+      {
+        "atSample": 46080,
+        "msg": {
+          "type": "noteOff",
+          "note": 64
+        }
+      },
+      {
+        "atSample": 48128,
+        "msg": {
+          "type": "noteOff",
+          "note": 67
+        }
+      }
+    ],
+    "file": "chord_velocity.f32",
+    "peak": 0.806433379650116,
+    "rms": 0.08564275346137233
+  },
+  {
+    "name": "pitch_bend",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 44032,
+    "seed": 7,
+    "patch": "init",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 12800,
+        "msg": {
+          "type": "pitchBend",
+          "semitones": 2
+        }
+      },
+      {
+        "atSample": 25600,
+        "msg": {
+          "type": "pitchBend",
+          "semitones": -1.5
+        }
+      },
+      {
+        "atSample": 35840,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "pitch_bend.f32",
+    "peak": 0.2062394767999649,
+    "rms": 0.131604747922251
+  },
+  {
+    "name": "mod_wheel",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 66048,
+    "seed": 7,
+    "patch": "preset:BRASS 1",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 55,
+          "velocity": 0.9
+        }
+      },
+      {
+        "atSample": 12800,
+        "msg": {
+          "type": "modWheel",
+          "value": 0.7
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 55
+        }
+      }
+    ],
+    "file": "mod_wheel.f32",
+    "peak": 0.30097901821136475,
+    "rms": 0.09537891325094659
+  },
+  {
+    "name": "sustain_pedal",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 66048,
+    "seed": 7,
+    "patch": "preset:E.PIANO 1",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 6400,
+        "msg": {
+          "type": "sustain",
+          "on": true
+        }
+      },
+      {
+        "atSample": 12800,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "sustain",
+          "on": false
+        }
+      }
+    ],
+    "file": "sustain_pedal.f32",
+    "peak": 0.35951951146125793,
+    "rms": 0.05754930683830552
+  },
+  {
+    "name": "voice_stealing",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 44032,
+    "seed": 7,
+    "patch": "preset:STRINGS 1",
+    "function": {
+      "polyphony": 2
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 2560,
+        "msg": {
+          "type": "noteOn",
+          "note": 64,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 5120,
+        "msg": {
+          "type": "noteOn",
+          "note": 67,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 30720,
+        "msg": {
+          "type": "noteOff",
+          "note": 64
+        }
+      },
+      {
+        "atSample": 30720,
+        "msg": {
+          "type": "noteOff",
+          "note": 67
+        }
+      }
+    ],
+    "file": "voice_stealing.f32",
+    "peak": 0.5225847363471985,
+    "rms": 0.13686570723936178
+  },
+  {
+    "name": "mono_portamento",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 66048,
+    "seed": 7,
+    "patch": "preset:SYN-LEAD",
+    "function": {
+      "mono": true,
+      "portamento": 0.2
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 48,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 12800,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "mono_portamento.f32",
+    "peak": 0.4130379557609558,
+    "rms": 0.10893160600341503
+  },
+  {
+    "name": "sh_lfo_seeded",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 66048,
+    "seed": 12345,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "name": "S&H TEST",
+        "lfoWave": 5,
+        "lfoSpeed": 60,
+        "lfoDelay": 0,
+        "lfoAmd": 60,
+        "lfoPmd": 40,
+        "lfoPitchModSens": 5
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "amSens": 3
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "sh_lfo_seeded.f32",
+    "peak": 0.16789740324020386,
+    "rms": 0.07662547119938976
+  },
+  {
+    "name": "fixed_freq_op",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 44032,
+    "seed": 7,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "name": "FIXED TEST",
+        "algorithm": 5,
+        "feedback": 4
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 70,
+            "freqMode": 1,
+            "freqCoarse": 2,
+            "freqFine": 30
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 90
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 60,
+            "freqCoarse": 7
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 52,
+          "velocity": 0.9
+        }
+      },
+      {
+        "atSample": 30720,
+        "msg": {
+          "type": "noteOff",
+          "note": 52
+        }
+      }
+    ],
+    "file": "fixed_freq_op.f32",
+    "peak": 0.24580709636211395,
+    "rms": 0.141323742303658
+  },
+  {
+    "name": "osc_free_running",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 44032,
+    "seed": 7,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "name": "FREE OSC",
+        "oscKeySync": false,
+        "algorithm": 5,
+        "feedback": 3
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 75,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 90
+          }
+        }
+      ]
+    },
+    "function": {
+      "polyphony": 1
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 6400,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      },
+      {
+        "atSample": 12800,
+        "msg": {
+          "type": "noteOn",
+          "note": 62,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 19200,
+        "msg": {
+          "type": "noteOff",
+          "note": 62
+        }
+      },
+      {
+        "atSample": 25600,
+        "msg": {
+          "type": "noteOn",
+          "note": 55,
+          "velocity": 0.6
+        }
+      },
+      {
+        "atSample": 35840,
+        "msg": {
+          "type": "noteOff",
+          "note": 55
+        }
+      }
+    ],
+    "file": "osc_free_running.f32",
+    "peak": 0.24580901861190796,
+    "rms": 0.1465777870153933
+  },
+  {
+    "name": "porta_downward",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 66048,
+    "seed": 7,
+    "patch": "preset:SYN-LEAD",
+    "function": {
+      "mono": true,
+      "portamento": 0.35
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 72,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 12800,
+        "msg": {
+          "type": "noteOn",
+          "note": 48,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 44032,
+        "msg": {
+          "type": "noteOff",
+          "note": 48
+        }
+      }
+    ],
+    "file": "porta_downward.f32",
+    "peak": 0.4271871745586395,
+    "rms": 0.11499546746793106
+  },
+  {
+    "name": "scaling_curves",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 66048,
+    "seed": 7,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "name": "SCALE TEST",
+        "algorithm": 32,
+        "feedback": 0
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 90,
+            "scaleLeftDepth": 60,
+            "scaleRightDepth": 60,
+            "scaleLeftCurve": 0,
+            "scaleRightCurve": 3
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 90,
+            "scaleLeftDepth": 80,
+            "scaleRightDepth": 80,
+            "scaleLeftCurve": 1,
+            "scaleRightCurve": 2,
+            "freqCoarse": 2
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 90,
+            "scaleLeftDepth": 99,
+            "scaleRightDepth": 99,
+            "scaleLeftCurve": 3,
+            "scaleRightCurve": 0,
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 3,
+          "overrides": {
+            "outputLevel": 90,
+            "scaleLeftDepth": 40,
+            "scaleRightDepth": 40,
+            "scaleLeftCurve": 2,
+            "scaleRightCurve": 1,
+            "freqCoarse": 4
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 24,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 12800,
+        "msg": {
+          "type": "noteOff",
+          "note": 24
+        }
+      },
+      {
+        "atSample": 19200,
+        "msg": {
+          "type": "noteOn",
+          "note": 96,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 32000,
+        "msg": {
+          "type": "noteOff",
+          "note": 96
+        }
+      },
+      {
+        "atSample": 38400,
+        "msg": {
+          "type": "noteOn",
+          "note": 108,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 51200,
+        "msg": {
+          "type": "noteOff",
+          "note": 108
+        }
+      }
+    ],
+    "file": "scaling_curves.f32",
+    "peak": 0.2388671636581421,
+    "rms": 0.09110899153062692
+  },
+  {
+    "name": "lfo_wave_sawdn",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 44032,
+    "seed": 7,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "name": "LFO 1",
+        "lfoWave": 1,
+        "lfoSpeed": 55,
+        "lfoDelay": 0,
+        "lfoAmd": 50,
+        "lfoPmd": 35,
+        "lfoPitchModSens": 4,
+        "lfoSync": false
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "amSens": 3
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 32000,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "lfo_wave_sawdn.f32",
+    "peak": 0.20613719522953033,
+    "rms": 0.08935575631321618
+  },
+  {
+    "name": "lfo_wave_sawup",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 44032,
+    "seed": 7,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "name": "LFO 2",
+        "lfoWave": 2,
+        "lfoSpeed": 55,
+        "lfoDelay": 0,
+        "lfoAmd": 50,
+        "lfoPmd": 35,
+        "lfoPitchModSens": 4,
+        "lfoSync": false
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "amSens": 3
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 32000,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "lfo_wave_sawup.f32",
+    "peak": 0.20602168142795563,
+    "rms": 0.09986821072016397
+  },
+  {
+    "name": "lfo_wave_square",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 44032,
+    "seed": 7,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "name": "LFO 3",
+        "lfoWave": 3,
+        "lfoSpeed": 55,
+        "lfoDelay": 0,
+        "lfoAmd": 50,
+        "lfoPmd": 35,
+        "lfoPitchModSens": 4,
+        "lfoSync": false
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "amSens": 3
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 32000,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "lfo_wave_square.f32",
+    "peak": 0.2062394618988037,
+    "rms": 0.0885639837696421
+  },
+  {
+    "name": "op_disabled",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 44032,
+    "seed": 7,
+    "patch": {
+      "base": "preset:E.PIANO 1",
+      "overrides": {
+        "name": "OP OFF"
+      },
+      "ops": [
+        {
+          "index": 1,
+          "overrides": {
+            "enabled": false
+          }
+        },
+        {
+          "index": 4,
+          "overrides": {
+            "enabled": false
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 60,
+          "velocity": 0.8
+        }
+      },
+      {
+        "atSample": 30720,
+        "msg": {
+          "type": "noteOff",
+          "note": 60
+        }
+      }
+    ],
+    "file": "op_disabled.f32",
+    "peak": 0.19312766194343567,
+    "rms": 0.035737872451432444
+  },
+  {
+    "name": "rate_scaling_high_note",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 44032,
+    "seed": 7,
+    "patch": {
+      "base": "init",
+      "overrides": {
+        "name": "RS TEST",
+        "algorithm": 5,
+        "feedback": 4
+      },
+      "ops": [
+        {
+          "index": 0,
+          "overrides": {
+            "outputLevel": 99,
+            "rateScaling": 7,
+            "egRates": [
+              80,
+              40,
+              30,
+              60
+            ],
+            "egLevels": [
+              99,
+              70,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "overrides": {
+            "outputLevel": 80,
+            "rateScaling": 7,
+            "egRates": [
+              80,
+              40,
+              30,
+              60
+            ],
+            "egLevels": [
+              99,
+              50,
+              0,
+              0
+            ],
+            "freqCoarse": 3
+          }
+        },
+        {
+          "index": 2,
+          "overrides": {
+            "outputLevel": 95,
+            "rateScaling": 0,
+            "egRates": [
+              80,
+              40,
+              30,
+              60
+            ],
+            "egLevels": [
+              99,
+              70,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 108,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 12800,
+        "msg": {
+          "type": "noteOff",
+          "note": 108
+        }
+      },
+      {
+        "atSample": 19200,
+        "msg": {
+          "type": "noteOn",
+          "note": 36,
+          "velocity": 1
+        }
+      },
+      {
+        "atSample": 32000,
+        "msg": {
+          "type": "noteOff",
+          "note": 36
+        }
+      }
+    ],
+    "file": "rate_scaling_high_note.f32",
+    "peak": 0.24080544710159302,
+    "rms": 0.02753217324952012
+  },
+  {
+    "name": "block_invariance_ref",
+    "sampleRate": 44100,
+    "blockSize": 128,
+    "totalSamples": 22016,
+    "seed": 7,
+    "patch": "preset:TUB BELLS",
+    "events": [
+      {
+        "atSample": 0,
+        "msg": {
+          "type": "noteOn",
+          "note": 72,
+          "velocity": 0.7
+        }
+      },
+      {
+        "atSample": 12800,
+        "msg": {
+          "type": "noteOff",
+          "note": 72
+        }
+      }
+    ],
+    "file": "block_invariance_ref.f32",
+    "peak": 0.11539096385240555,
+    "rms": 0.04074006452495955
+  }
+]

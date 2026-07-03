@@ -1,0 +1,19 @@
+# deps / build outputs
+node_modules/
+dist/
+
+# SwiftPM build dir
+.build/
+
+# XcodeGen output (regenerated in CI) + Xcode user state
+native-ios/DX1Synth.xcodeproj/
+*.xcuserdata/
+xcuserdata/
+
+# CocoaPods (installed in CI)
+ios/App/Pods/
+
+# regenerable ear-check WAVs (13 MB)
+native-ios/renders/
+
+.DS_Store

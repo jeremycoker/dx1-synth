@@ -1,0 +1,119 @@
+# Codemagic CI — builds the DX1 Synth iPad app (.ipa) in the cloud on a macOS runner.
+#
+# One-time setup in the Codemagic dashboard (https://codemagic.io):
+#   1. Push this repo (or just this "Yamaha DX1" folder as its own repo) to GitHub/GitLab
+#      and add it as a Codemagic app.
+#   2. Teams > Integrations > Developer Portal: connect your Apple Developer account
+#      (App Store Connect API key). Name the integration "appstore" or update below.
+#   3. In App Store Connect, create the app record with bundle ID: com.jeremy.dx1synth
+#   4. Start the "ios-ipad" workflow. Codemagic auto-creates signing certs/profiles.
+#
+# Result: a signed .ipa you can install via TestFlight (easiest) or Apple Configurator.
+
+workflows:
+  # ---------------------------------------------------------------------------
+  # NATIVE app (native-ios/): unsigned compile canary. No Apple account needed.
+  # Run this until green before attempting a signed build.
+  # ---------------------------------------------------------------------------
+  ios-native-check:
+    name: DX1 Native canary (unsigned)
+    max_build_duration: 30
+    instance_type: mac_mini_m2
+    environment:
+      xcode: 15.4
+    scripts:
+      - name: Run DX1Core tests (macOS)
+        script: cd native-ios/DX1Core && swift test
+      - name: Install XcodeGen
+        script: brew install xcodegen
+      - name: Generate Xcode project
+        script: cd native-ios && xcodegen generate
+      - name: Compile app unsigned
+        script: |
+          xcodebuild build \
+            -project native-ios/DX1Synth.xcodeproj \
+            -scheme DX1Synth \
+            -destination 'generic/platform=iOS' \
+            CODE_SIGNING_ALLOWED=NO
+    artifacts:
+      - /tmp/xcodebuild_logs/*.log
+
+  # ---------------------------------------------------------------------------
+  # NATIVE app: signed .ipa -> TestFlight. Requires the "appstore" integration
+  # and an App Store Connect app record for com.jeremy.dx1synth.native.
+  # ---------------------------------------------------------------------------
+  ios-native-ipad:
+    name: DX1 Native iPad (TestFlight)
+    max_build_duration: 45
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: appstore
+    environment:
+      xcode: 15.4
+      vars:
+        BUNDLE_ID: com.jeremy.dx1synth.native
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.jeremy.dx1synth.native
+    scripts:
+      - name: Install XcodeGen
+        script: brew install xcodegen
+      - name: Generate Xcode project
+        script: cd native-ios && xcodegen generate
+      - name: Set up code signing
+        script: xcode-project use-profiles
+      - name: Build signed IPA
+        script: |
+          xcode-project build-ipa \
+            --project native-ios/DX1Synth.xcodeproj \
+            --scheme DX1Synth
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+    publishing:
+      app_store_connect:
+        auth: integrations
+        submit_to_testflight: true
+
+  # ---------------------------------------------------------------------------
+  # HYBRID Capacitor app (unchanged)
+  # ---------------------------------------------------------------------------
+  ios-ipad:
+    name: DX1 Synth iPad
+    max_build_duration: 45
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: appstore   # must match your Codemagic integration name
+    environment:
+      xcode: latest
+      node: 20
+      vars:
+        BUNDLE_ID: com.jeremy.dx1synth
+        XCODE_WORKSPACE: ios/App/App.xcworkspace
+        XCODE_SCHEME: App
+      ios_signing:
+        distribution_type: app_store   # change to ad_hoc for direct device install
+        bundle_identifier: com.jeremy.dx1synth
+    scripts:
+      - name: Install npm dependencies
+        script: npm ci
+      - name: Build web app
+        script: npm run build
+      - name: Sync web build into iOS project
+        script: npx cap sync ios
+      - name: Install CocoaPods dependencies
+        script: cd ios/App && pod install
+      - name: Set up code signing
+        script: xcode-project use-profiles
+      - name: Build signed IPA
+        script: |
+          xcode-project build-ipa \
+            --workspace "$XCODE_WORKSPACE" \
+            --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+    publishing:
+      app_store_connect:
+        auth: integrations
+        submit_to_testflight: true   # install on your iPad via the TestFlight app

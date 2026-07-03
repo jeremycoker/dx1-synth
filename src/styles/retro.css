@@ -1,0 +1,160 @@
+/* DX1 hardware skeuomorphism: wood, brushed panel, LED/LCD glow, keys, buttons */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0c0c0e;
+  color: #e5e5e5;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- cabinet ---------- */
+.dx-wood {
+  background:
+    repeating-linear-gradient(93deg,
+      rgba(0,0,0,0.22) 0px, rgba(0,0,0,0) 2px, rgba(0,0,0,0.16) 5px,
+      rgba(255,255,255,0.04) 7px, rgba(0,0,0,0.2) 11px),
+    linear-gradient(180deg, #4a2c1a 0%, #3a2114 30%, #2e1a10 70%, #241309 100%);
+  box-shadow: inset 0 2px 6px rgba(255,255,255,0.08), inset 0 -4px 10px rgba(0,0,0,0.6);
+}
+
+.dx-panel-surface {
+  background:
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.012) 0 1px, rgba(0,0,0,0.015) 1px 2px),
+    linear-gradient(180deg, #232326 0%, #1a1a1d 55%, #141416 100%);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.07), inset 0 -2px 8px rgba(0,0,0,0.55);
+}
+
+.dx-panel-inset {
+  background: linear-gradient(180deg, #111113 0%, #17171a 100%);
+  border: 1px solid #060607;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.75), 0 1px 0 rgba(255,255,255,0.05);
+  border-radius: 4px;
+}
+
+/* ---------- LED (red 7-seg style) ---------- */
+.dx-led {
+  color: #ff2a1a;
+  background: #180404;
+  text-shadow: 0 0 6px rgba(255, 42, 26, 0.9), 0 0 18px rgba(255, 42, 26, 0.45);
+  letter-spacing: 0.12em;
+  border-radius: 3px;
+  box-shadow: inset 0 2px 8px rgba(0,0,0,0.9), inset 0 0 24px rgba(120, 6, 2, 0.35);
+  font-family: 'Courier New', monospace;
+  font-weight: 700;
+}
+.dx-led-dim { color: #401210; text-shadow: none; }
+
+/* ---------- LCD (green-on-dark, DX1 style) ---------- */
+.dx-lcd {
+  color: #8aff9a;
+  background: linear-gradient(180deg, #0a1c0d 0%, #0d2010 100%);
+  text-shadow: 0 0 4px rgba(138, 255, 154, 0.6);
+  font-family: 'Courier New', monospace;
+  font-weight: 700;
+  border-radius: 3px;
+  box-shadow: inset 0 2px 10px rgba(0,0,0,0.85), inset 0 0 30px rgba(30, 90, 40, 0.25);
+  letter-spacing: 0.08em;
+}
+
+/* ---------- membrane buttons ---------- */
+.dx-btn {
+  background: linear-gradient(180deg, #3a3a3f 0%, #26262a 45%, #1c1c20 100%);
+  border: 1px solid #0a0a0c;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.14);
+  color: #d8d8dc;
+  transition: transform 60ms ease, box-shadow 60ms ease, filter 60ms ease;
+  user-select: none;
+  cursor: pointer;
+}
+.dx-btn:active, .dx-btn.dx-btn-down {
+  transform: translateY(1px);
+  box-shadow: 0 0 1px rgba(0,0,0,0.6), inset 0 2px 4px rgba(0,0,0,0.55);
+  filter: brightness(0.9);
+}
+.dx-btn-blue {
+  background: linear-gradient(180deg, #4a7cb5 0%, #3d6ea5 45%, #2d5480 100%);
+  color: #f0f6ff;
+  border-color: #16283d;
+}
+.dx-btn-active {
+  outline: 1px solid rgba(255, 60, 40, 0.8);
+  box-shadow: 0 0 8px rgba(255, 60, 40, 0.45), inset 0 1px 0 rgba(255,255,255,0.14);
+}
+
+/* ---------- status LEDs ---------- */
+.dx-dot-led {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: #3a0d08;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.8);
+}
+.dx-dot-led.on {
+  background: radial-gradient(circle at 35% 35%, #ff8a70, #ff2a1a 60%, #b01005);
+  box-shadow: 0 0 6px rgba(255, 42, 26, 0.9), 0 0 14px rgba(255, 42, 26, 0.4);
+}
+
+/* ---------- keybed ---------- */
+.dx-keybed {
+  background: #050505;
+  border-top: 3px solid #101012;
+  box-shadow: inset 0 6px 14px rgba(0,0,0,0.8);
+}
+.dx-key-white {
+  background: linear-gradient(180deg, #f4f2ec 0%, #e9e6de 82%, #cfccc2 96%, #b7b4aa 100%);
+  border: 1px solid #6b6a64;
+  border-radius: 0 0 4px 4px;
+  box-shadow: inset 0 -6px 8px rgba(0,0,0,0.12), inset 1px 0 0 rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+.dx-key-white-down {
+  background: linear-gradient(180deg, #d8d5cc 0%, #ccc9bf 85%, #b3b0a6 100%);
+  box-shadow: inset 0 4px 10px rgba(0,0,0,0.3);
+}
+.dx-key-black {
+  background: linear-gradient(180deg, #34343a 0%, #17171b 25%, #0a0a0d 100%);
+  border: 1px solid #000;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.22);
+  cursor: pointer;
+  z-index: 10;
+}
+.dx-key-black-down {
+  background: linear-gradient(180deg, #222228 0%, #0e0e11 40%, #060608 100%);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.6), inset 0 3px 6px rgba(0,0,0,0.7);
+}
+
+/* ---------- sliders ---------- */
+.dx-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  background: linear-gradient(180deg, #050506, #131316);
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.9);
+  outline: none;
+}
+.dx-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px; height: 26px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, #4b4b52 0%, #2c2c31 45%, #202024 50%, #2c2c31 55%, #17171a 100%);
+  border: 1px solid #000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.7), inset 0 1px 0 rgba(255,255,255,0.25);
+  cursor: pointer;
+}
+.dx-slider::-moz-range-thumb {
+  width: 14px; height: 26px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, #4b4b52 0%, #2c2c31 50%, #17171a 100%);
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+/* thin scrollbars for preset lists */
+.dx-scroll::-webkit-scrollbar { width: 8px; }
+.dx-scroll::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }

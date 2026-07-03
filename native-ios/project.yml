@@ -1,0 +1,47 @@
+# XcodeGen spec for the native DX1 iPad app.
+# Generated in CI with:  xcodegen generate  (run from native-ios/)
+# Never hand-edit the generated .xcodeproj — change this file instead.
+
+name: DX1Synth
+
+options:
+  createIntermediateGroups: true
+  deploymentTarget:
+    iOS: "16.0"
+
+packages:
+  DX1Core:
+    path: DX1Core
+
+targets:
+  DX1Synth:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - App
+    dependencies:
+      - package: DX1Core
+        product: DX1Core
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jeremy.dx1synth.native
+        PRODUCT_NAME: DX1 Synth
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.9"
+        TARGETED_DEVICE_FAMILY: "2"          # iPad only
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: NO
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: DX1 Synth
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        UIRequiresFullScreen: true
+        UIStatusBarHidden: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
