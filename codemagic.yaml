@@ -20,7 +20,7 @@ workflows:
     max_build_duration: 30
     instance_type: mac_mini_m2
     environment:
-      xcode: 15.4
+      xcode: latest
     scripts:
       - name: Run DX1Core tests (macOS)
         script: cd native-ios/DX1Core && swift test
@@ -49,7 +49,7 @@ workflows:
     integrations:
       app_store_connect: appstore
     environment:
-      xcode: 15.4
+      xcode: latest
       vars:
         BUNDLE_ID: com.jeremy.dx1synth.native
       ios_signing:
