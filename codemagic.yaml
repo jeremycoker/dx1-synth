@@ -37,11 +37,21 @@ workflows:
             -scheme DX1Synth
       - name: Compile app unsigned
         script: |
+          set -o pipefail
+          mkdir -p /tmp/xcodebuild_logs
           xcodebuild build \
             -project native-ios/DX1Synth.xcodeproj \
             -scheme DX1Synth \
             -destination 'generic/platform=iOS' \
-            CODE_SIGNING_ALLOWED=NO
+            CODE_SIGNING_ALLOWED=NO \
+            2>&1 | tee /tmp/xcodebuild_logs/native_canary.log \
+            | grep -E "error:|warning:|BUILD (FAILED|SUCCEEDED)|Compiling|Build target" || true
+          status=${PIPESTATUS[0]}
+          if [ "$status" -ne 0 ]; then
+            echo "===== ERRORS ====="
+            grep -B 2 -A 5 "error:" /tmp/xcodebuild_logs/native_canary.log || true
+          fi
+          exit $status
     artifacts:
       - /tmp/xcodebuild_logs/*.log
 
