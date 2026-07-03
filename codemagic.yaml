@@ -72,7 +72,7 @@ workflows:
       - /tmp/xcodebuild_logs/*.log
     publishing:
       app_store_connect:
-        auth: integrations
+        auth: integration
         submit_to_testflight: true
 
   # ---------------------------------------------------------------------------
@@ -115,5 +115,5 @@ workflows:
       - /tmp/xcodebuild_logs/*.log
     publishing:
       app_store_connect:
-        auth: integrations
+        auth: integration
         submit_to_testflight: true   # install on your iPad via the TestFlight app
