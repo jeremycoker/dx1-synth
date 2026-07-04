@@ -7,6 +7,9 @@ let package = Package(
         .iOS(.v16),
         .macOS(.v13),
     ],
+    products: [
+        .library(name: "DX1Core", targets: ["DX1Core"]),
+    ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-atomics.git", from: "1.2.0"),
     ],

@@ -47,7 +47,7 @@ workflows:
             -derivedDataPath build/DerivedData \
             CODE_SIGNING_ALLOWED=NO \
             2>&1 | tee /tmp/xcodebuild_logs/native_canary.log \
-            | grep -E "error:|warning:|BUILD (FAILED|SUCCEEDED)|Compiling|Build target" || true
+            | grep -E "error:|warning:|BUILD (FAILED|SUCCEEDED)|Compiling|Build target"
           status=${PIPESTATUS[0]}
           if [ "$status" -ne 0 ]; then
             echo "===== ERRORS ====="
